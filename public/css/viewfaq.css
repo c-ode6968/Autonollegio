@@ -1,0 +1,88 @@
+.crud-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #d4b20a;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #d4b20a;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.form-container button {
+    background-color: #1b1818;
+    color: #e61414;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+
+.back-link {
+    display: inline-block;
+    background-color: rgb(208, 148, 16);
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 0.5em;
+    transition: background-color 0.3s;
+    width: 5%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 2.5em;
+    margin-left: 45%;
+    margin-bottom: 11em;
+}
+
+.ins{
+    margin-top: em;
+
+}
+ .insert-link {
+  
+    background-color: rgb(208, 148, 16);
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 30px;
+    border-radius: 0.5em;
+    transition: background-color 0.3s;
+    width: 20%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+    margin-left: 9em;
+}

@@ -1,0 +1,298 @@
+.profile-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+    margin-top: 9em;
+    margin-bottom: 10em;
+}
+
+.profile-area h2 {
+	text-align: center;
+}
+
+.profile-area ul {
+	list-style: none;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.profile-area ul li {
+	margin:5px;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.profile-area ul li a {
+	color: #333;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10;
+	background-color: #f2f2f2;
+	border-radius: 0.5em;
+}
+
+.profile-area ul li a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.profilo {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div h1 {
+    text-align: center;
+}
+
+.profile-card-container {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.profile-card-container h2 {
+    margin: 5px 0;
+}
+
+.profile-card {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.profile-card h2 {
+    margin: 5px 0;
+}
+
+.table {
+    max-width: 900px;
+    margin: 0 auto; 
+    border-collapse: collapse;
+    margin-top: 3em;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.back-btn {
+        display: block;
+        width: 150px;
+        padding: 10px 20px;
+        background-color: #DAA520	;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 4px;
+        margin: 0 auto;
+        margin-top: 70px;
+    } 
+
+	.btn-pri {
+        font-size: 20px;
+        width: 100%; 
+        max-width: 400px; 
+        margin: 10px auto;
+        margin-left: 18%;
+        background-color: green; 
+        color: white; 
+        border-color: green;
+    }
+
+    .btn-pri:hover {
+        background-color: darkgreen;
+        border-color: darkgreen; 
+    }
+
+	#success {
+        position: fixed;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        background-color: #28a745;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 4px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+        display: block;
+        width: 300px;
+        padding: 10px 20px;
+        background-color: #FF4500;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 4px;
+        margin: 0 auto;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+
+	.button-container {
+		display: flex;
+		gap: 10px;
+	}
+	
+	.back-btn {
+			display: block;
+			width: 150px;
+			padding: 10px 20px;
+			background-color: #DAA520	;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 4px;
+			margin: 0 auto;
+			margin-top: 70px;
+		} 
+	
+	.button-container button {
+		padding: 8px 12px;
+		border: none;
+		cursor: pointer;
+		font-weight: bold;
+		text-transform: uppercase;
+		border-radius: 4px;
+		transition: background-color 0.3s ease-in-out;
+	}
+	
+	.button-container button.b1 {
+		background-color: #3498db;
+		color: white;
+	}
+	
+	.button-container button.b3 {
+		background-color: #e74c3c;
+		color: white;
+	}
+	
+	.button-container button:hover {
+		filter: brightness(1.2);
+	}
+	
+	.ins {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100px;
+		width:90%;
+		margin-top: 3em;
+		
+	}
+	
+	.ins .insert-link{
+		background-color: #006400; 
+	}
+	
+	#succes {
+			position: fixed;
+			top: 10%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 9999;
+			background-color: #28a745;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 4px;
+			box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+		}
+	
+
+
+
+
+
+
+
+
+
+
+
+<!--style modifica profilo --1>
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+  }
+  
+  
+
+  .registration-container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 4em;
+	margin-bottom: 5em;
+  }
+  
+  .registration-container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .registration-container form {
+	display: grid;
+	grid-gap: 7px;
+  }
+  
+  .registration-container label {
+	font-weight: bold;
+  }
+  
+  .registration-container input[type="text"],
+  .registration-container input[type="date"]
+  {
+	width: 100%;
+	padding: 5px;
+	
+  }
+  
+  .registration-container select {
+	width: 103.5%;
+	padding: 5px;
+	
+  }
+  
+  .registration-container button {
+	background-color: rgb(208, 148, 16);
+	color: #fff;
+	border: none;
+	padding: 7px 10px;
+	border-radius: 0.5em;
+	cursor: pointer;
+	margin-top: 5px;
+	width: 103.5%;
+  }
+
+  .back-button1 {
+	margin-top: 10em;
+	margin-left: 37em;
+	background-color: #319a54;
+	color: #fff;
+	border: none;
+	padding: 9px 14px;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}

@@ -1,0 +1,43 @@
+
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 3em;
+    padding-bottom: 4em;
+}
+
+.faq-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-container .add-form {
+    margin-bottom: 20px;
+}
+
+.faq-container .add-form input[type="text"],
+.faq-container .add-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.faq-container .add-form button {
+    background-color: rgb(208, 148, 16);
+    color: #fff;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.faq-container .edit-form button {
+    background-color: darkred;
+}
+
+.faq-container .edit-form button,
+.faq-container .delete-btn {
+    margin-left: 10px;
+}

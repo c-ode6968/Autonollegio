@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  
+  bottom: 0;
+  width: 100%;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.footer ul li {
+  margin-right: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footer p{
+  text-align: left;
+  margin-top: 30px;
+}
+.logo span{
+  color: aqua;
+}
+
+
+.registration-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 4em;
+  margin-bottom: 5em;
+}
+
+.registration-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-container form {
+  display: grid;
+  grid-gap: 7px;
+}
+
+.registration-container label {
+  font-weight: bold;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="date"]
+{
+  width: 100%;
+  padding: 5px;
+  
+}
+
+.registration-container select {
+  width: 103.5%;
+  padding: 5px;
+  
+}
+
+.registration-container button {
+  background-color: rgb(208, 148, 16);
+  color: #fff;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 0.5em;
+  cursor: pointer;
+  margin-top: 5px;
+  width: 103.5%;
+}
